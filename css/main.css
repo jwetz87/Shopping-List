@@ -1,0 +1,110 @@
+body {
+    
+ height:100%;
+ background: url('../images/aisle.png');
+background-size: cover;
+background-attachment: fixed;
+background-repeat: no-repeat;
+    
+    
+}
+
+header {
+ margin: 0px ;    
+background: rgba(255,255,255,0.7);
+ position: relative;
+width: 100%;
+border-bottom: 3px solid black;    
+    
+}
+
+h1 {
+margin: 0px;
+
+text-align: center;
+color: black;
+line-height: 60px
+    
+}
+
+.wrapper {
+    
+ max-width: 100%;
+min-width: 1000px;    
+ margin: 0px auto;       
+}
+
+.notepad {
+z-index: -1;    
+position: relative;
+top: -30px;    
+background: url('../images/postitnotes.png');
+width:  900px;    
+height: 600px;   
+margin: 0 auto;
+background-position: center;    
+background-repeat: no-repeat;    
+   
+}
+
+
+.additem {
+ z-index: 2;    
+ background: #a6d992;
+ color: #3c612e;
+ border: 2px solid black;
+ border-radius: 4px;    
+ display: inline-block;
+ width: 100px;
+height: 40px;
+font-size: 14pt;
+font-weight: bold;
+    margin: 5px;
+}
+
+.clearlist {
+z-index: 2;    
+ background: #f7b18b;
+ color: #fa3c3c;
+ border: 2px solid black;
+ border-radius: 4px;    
+ display: inline-block;
+ width: 100px;
+height: 40px;
+font-size: 12pt;
+font-weight: bold;
+margin: 5px;
+}
+
+.buttoncontainer {
+    
+ width: 230px;
+ margin: 0 auto;    
+        
+}
+
+.grocerylist {
+    font-size: 16pt;
+    list-style-type: none;
+    position: absolute;
+    top: 140px;
+    left: 260px
+    
+}
+
+.grocerylist li:after {
+ 
+    content:"x";
+    color: red;
+    position: absolute;
+    left: 110px;
+    
+    
+}
+
+.have {
+ 
+    text-decoration: line-through;
+    color: green;
+    
+}
