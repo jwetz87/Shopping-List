@@ -52,7 +52,7 @@ background-repeat: no-repeat;
  z-index: 2;    
  background: #a6d992;
  color: #3c612e;
- border: 2px solid black;
+ border: 1px solid black;
  border-radius: 4px;    
  display: inline-block;
  width: 100px;
@@ -60,13 +60,14 @@ height: 40px;
 font-size: 14pt;
 font-weight: bold;
     margin: 5px;
+	box-shadow: 2px 2px 2px black;
 }
 
 .clearlist {
 z-index: 2;    
  background: #f7b18b;
  color: #fa3c3c;
- border: 2px solid black;
+ border: 1px solid black;
  border-radius: 4px;    
  display: inline-block;
  width: 100px;
@@ -74,6 +75,21 @@ height: 40px;
 font-size: 12pt;
 font-weight: bold;
 margin: 5px;
+	box-shadow: 2px 2px 2px black;
+}
+
+.iteminput {
+width: 100%;
+margin: 5px 0;
+color: purple;	
+text-align: center;
+	
+}
+
+.iteminput:focus {
+
+	outline: 2px solid black;
+	
 }
 
 .buttoncontainer {
@@ -83,7 +99,7 @@ margin: 5px;
         
 }
 
-.grocerylist {
+.grocery_list {
     font-size: 16pt;
     list-style-type: none;
     position: absolute;
@@ -92,13 +108,12 @@ margin: 5px;
     
 }
 
-.grocerylist li:after {
- 
-    content:"x";
-    color: red;
+.grocery_list_2 {
+    font-size: 16pt;
+    list-style-type: none;
     position: absolute;
-    left: 110px;
-    
+    top: 140px;
+    left: 460px
     
 }
 
@@ -108,3 +123,5 @@ margin: 5px;
     color: green;
     
 }
+
+
