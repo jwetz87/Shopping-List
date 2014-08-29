@@ -86,13 +86,15 @@ margin: 5px;
 .grocery_list {
     font-size: 16pt;
     list-style-type: none;
-    position: absolute;
-    top: 140px;
-    left: 260px
     
 }
 
-
+.gl_1 {
+	
+position: absolute;
+top: 140px;
+left: 260px;
+}
 
 .have {
  
@@ -102,8 +104,6 @@ margin: 5px;
 }
 
 .grocery_list_2 {
-    font-size: 16pt;
-    list-style-type: none;
     position: absolute;
     top: 140px;
     left: 460px
