@@ -1,7 +1,7 @@
 $(document).ready(function () {
 	
 	$(".additem").on("click", function () {
-		var $item_title = $(".iteminput").text($(this).val());
+		var $item_title = $(".iteminput").find(".iteminput");
        alert($item_title); });
     
     
@@ -18,3 +18,5 @@ $(document).ready(function () {
 });
         
     
+
+
