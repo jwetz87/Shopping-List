@@ -5,7 +5,7 @@ $(document).ready(function () {
        alert(item_title); });
 	
 	
-	
+
 	
    
 	
@@ -15,3 +15,10 @@ $(document).ready(function () {
     
 
 
+	//.each
+	//.text
+	//.find
+	//.nearest
+	//.hasClass
+	//.toggleClass
+	
