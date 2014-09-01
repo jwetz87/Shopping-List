@@ -109,3 +109,15 @@ left: 260px;
     left: 460px
     
 }
+
+.iteminput {
+	border: 1px solid black;
+	width: 100%;
+	text-indent: 5px;
+	margin-bottom: 5px;
+}
+
+.iteminput:focus {
+ border: blue;	
+	
+}

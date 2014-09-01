@@ -3,10 +3,15 @@ $(document).ready(function () {
 	$(".additem").on("click", function () {
 		var item_title = $(".iteminput").val();
 	   $( "li" ).each(function( index ) {
-		 (index + ".empty ".closest + $( this ).text(item_title));
+		 (index + ".empty_list_item " + ".grocery_item" + $( this ).text(item_title));
        });
         
 	});
+	
+		//$(".clearlist").on("click", function() {
+		//$( "li" ).each(function( index ) {
+		//	(index + ".
+	
 });        
     
 
