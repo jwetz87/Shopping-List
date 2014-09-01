@@ -39,9 +39,10 @@ z-index: -1;
 position: relative;
 top: -30px;    
 background: url('../images/postitnotes.png');
-width:  900px;    
+width:  476px;    
 height: 600px;   
 margin: 0 auto;
+padding-top: 250px;	
 background-position: center;    
 background-repeat: no-repeat;    
    
@@ -84,17 +85,20 @@ margin: 5px;
 }
 
 .grocery_list {
+	
+	display: inline-block;
+    width: 40%;
     font-size: 16pt;
     list-style-type: none;
     
 }
 
-.gl_1 {
+/*.gl_1 {
 	
 position: absolute;
 top: 140px;
 left: 260px;
-}
+}*/
 
 .have {
  
@@ -103,12 +107,12 @@ left: 260px;
     
 }
 
-.gl_2 {
+/*.gl_2 {
     position: absolute;
     top: 140px;
     left: 460px
     
-}
+}*/
 
 .iteminput {
 	border: 1px solid black;
@@ -120,4 +124,17 @@ left: 260px;
 .iteminput:focus {
  border: blue;	
 	
+}
+
+span.grocery_item {
+    display: inline-block;
+    width: 85%;
+}
+span.remove_item_button {
+    display: inline-block;
+    width: 10%;
+    visibility: visible;
+}
+.empty span.remove_item_button {
+    visibility: hidden;
 }
